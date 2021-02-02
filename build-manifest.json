@@ -1,0 +1,433 @@
+{
+  "inputs": {
+    "global.css": {
+      "bytes": 33,
+      "imports": []
+    },
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/carbon-components-svelte/css/white.css": {
+      "bytes": 448708,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-365c3dcb.js": {
+      "bytes": 23274,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 573,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/index-1fe6c65c.js": {
+      "bytes": 3276,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte-routing.js": {
+      "bytes": 30471,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-1fe6c65c.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@jitsi/js-utils/random.js": {
+      "bytes": 71304,
+      "imports": []
+    },
+    "_snowpack/pkg/carbon-components-svelte.js": {
+      "bytes": 202567,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/carbon-pictograms-svelte/lib/Bee.svelte.js": {
+      "bytes": 6518,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte/transition.js": {
+      "bytes": 1727,
+      "imports": []
+    },
+    "dist/FlyingBee.svelte.js": {
+      "bytes": 1557,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-pictograms-svelte/lib/Bee.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte/store.js": {
+      "bytes": 99,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-1fe6c65c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/stores.js": {
+      "bytes": 201,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/store.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/Home.svelte.js": {
+      "bytes": 11928,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@jitsi/js-utils/random.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-components-svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/FlyingBee.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/stores.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/Jitsi.svelte.css": {
+      "bytes": 53,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte.js": {
+      "bytes": 75,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-365c3dcb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/clipboard-copy.js": {
+      "bytes": 1705,
+      "imports": []
+    },
+    "dist/Jitsi.svelte.js": {
+      "bytes": 9927,
+      "imports": [
+        {
+          "path": "dist/Jitsi.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/clipboard-copy.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-components-svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/stores.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/Webinar.svelte.js": {
+      "bytes": 1955,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Jitsi.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/WebinarHost.svelte.js": {
+      "bytes": 2173,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Jitsi.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/stores.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/Join.svelte.js": {
+      "bytes": 8874,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-components-svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/stores.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ThankYou.svelte.js": {
+      "bytes": 6096,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-components-svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/FlyingBee.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.svelte.js": {
+      "bytes": 7903,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-routing.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Home.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Webinar.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/WebinarHost.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Join.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ThankYou.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 490,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/carbon-components-svelte/css/white.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/global.css": {
+      "imports": [],
+      "inputs": {
+        "global.css": {
+          "bytesInOutput": 22
+        }
+      },
+      "bytes": 23
+    },
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/carbon-components-svelte/css/white.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-365c3dcb.js": {
+          "bytesInOutput": 8093
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-1fe6c65c.js": {
+          "bytesInOutput": 758
+        },
+        "_snowpack/pkg/svelte-routing.js": {
+          "bytesInOutput": 7848
+        },
+        "_snowpack/pkg/@jitsi/js-utils/random.js": {
+          "bytesInOutput": 57846
+        },
+        "_snowpack/pkg/carbon-components-svelte.js": {
+          "bytesInOutput": 68285
+        },
+        "_snowpack/pkg/carbon-pictograms-svelte/lib/Bee.svelte.js": {
+          "bytesInOutput": 4620
+        },
+        "_snowpack/pkg/svelte/transition.js": {
+          "bytesInOutput": 893
+        },
+        "dist/FlyingBee.svelte.js": {
+          "bytesInOutput": 416
+        },
+        "_snowpack/pkg/svelte/store.js": {
+          "bytesInOutput": 0
+        },
+        "dist/stores.js": {
+          "bytesInOutput": 93
+        },
+        "dist/Home.svelte.js": {
+          "bytesInOutput": 3956
+        },
+        "dist/Jitsi.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/clipboard-copy.js": {
+          "bytesInOutput": 719
+        },
+        "dist/Jitsi.svelte.js": {
+          "bytesInOutput": 3795
+        },
+        "dist/Webinar.svelte.js": {
+          "bytesInOutput": 731
+        },
+        "dist/WebinarHost.svelte.js": {
+          "bytesInOutput": 793
+        },
+        "dist/Join.svelte.js": {
+          "bytesInOutput": 2924
+        },
+        "dist/ThankYou.svelte.js": {
+          "bytesInOutput": 2012
+        },
+        "dist/App.svelte.js": {
+          "bytesInOutput": 2584
+        },
+        "dist/index.js": {
+          "bytesInOutput": 81
+        }
+      },
+      "bytes": 166797
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "_snowpack/pkg/carbon-components-svelte/css/white.css": {
+          "bytesInOutput": 446256
+        },
+        "dist/Jitsi.svelte.css": {
+          "bytesInOutput": 53
+        }
+      },
+      "bytes": 446310
+    }
+  }
+}
